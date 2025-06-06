@@ -95,3 +95,4 @@ Outputs:
   PrivateSubnetId:
     Description: The ID of the private subnet
     Value: !Ref PrivateSubnet
+    
