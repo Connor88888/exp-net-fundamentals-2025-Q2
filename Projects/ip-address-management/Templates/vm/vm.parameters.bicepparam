@@ -1,0 +1,15 @@
+using 'vm.bicep'
+
+param location = 'eastus2'
+param vmName = 'Net-Fun-Window-Server'
+param adminUsername = 'adminconnor'
+param adminPassword = 'Testing12345!'
+param vmSize = 'Standard_B2s'
+param computerName = 'Net-Fun-Window-'
+param osDiskSizeGB = 127
+param osDiskId = '/subscriptions/f6c4b119-28d4-4b30-a375-a6d2277ec081/resourceGroups/net-fun-bootcamp/providers/Microsoft.Compute/disks/Net-Fun-Window-Server_OsDisk_1_0b74c920ab894b9080cb4a8d981345c8'
+param nicId = '/subscriptions/f6c4b119-28d4-4b30-a375-a6d2277ec081/resourceGroups/net-fun-bootcamp/providers/Microsoft.Network/networkInterfaces/net-fun-window-server284'
+param imagePublisher = 'MicrosoftWindowsServer'
+param imageOffer = 'WindowsServer'
+param imageSku = '2025-datacenter-core-g2'
+param imageVersion = 'latest' 

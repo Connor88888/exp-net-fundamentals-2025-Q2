@@ -40,7 +40,3 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 This is the resource to AWS
 
 ![alt text](assests/image2.png)
-
-
-
- Unbale to complete Deploy due to AWS CLI issues. Pick up at 36 min in Automate VPC Deployment with CFN video
