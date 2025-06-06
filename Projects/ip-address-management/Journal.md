@@ -36,5 +36,6 @@ To remedy the issue I downloaded the Deployment files from my web browser and in
 ```sh
 az deployment group create --resource-group net-fun-bootcamp --template-file "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\Projects\ip-address-management\Templates\vm\main.bicep" --parameters "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\Projects\ip-address-management\Templates\vm\parameters.bicepparam"
 ```
+![Screenshot 2025-06-06 124428](https://github.com/user-attachments/assets/0a9161c7-2d1a-4147-956e-8c7ae1b82a02)
 
  
