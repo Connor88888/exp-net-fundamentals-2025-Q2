@@ -1,6 +1,7 @@
 ## Resolver 
 
-![](/exp-net-fundamentals-2025-Q2/projects/linux_networking/assets/resolver.png)
+![Screenshot 2025-06-07 173720](https://github.com/user-attachments/assets/8f4ed7b2-5471-4ea9-90ef-0f7c28ed4def)
+
 
 We worked to update our Ubuntu DNS server mannually by modifying the /etc/systemd/resolved.conf file in linux using the "sudo vi" command. 
 
@@ -8,6 +9,7 @@ We worked to update our Ubuntu DNS server mannually by modifying the /etc/system
 
 Wget and Curl are CLI tools used to transfer data over the internet. Wget is mainly used to download files and websites with a simpler output. On the otherhand Curl is a more versitile tool that can use multiple protocols and assists with web developement. 
 
-Curl: ![](/exp-net-fundamentals-2025-Q2/projects/linux_networking/assets/curl.png)
+![Screenshot 2025-06-07 180039](https://github.com/user-attachments/assets/36a11dc5-504d-4676-b014-c0666968e25c)
 
-Wget: ![](/exp-net-fundamentals-2025-Q2/projects/linux_networking/assets/wget.png)
+
+![Screenshot 2025-06-07 175926](https://github.com/user-attachments/assets/219d8243-a6b0-4be1-b93d-e87124a606b8)
