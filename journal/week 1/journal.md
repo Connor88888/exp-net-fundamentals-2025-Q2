@@ -7,4 +7,6 @@
 - Automated deployment for Windows VM using Azure Bicep and CLI
 - Created a basic local networking in packet tracer and diagnosed the stages of obtaining an IP Address for a new endpoint device 
 -  Reviewed networking tools (ipconfig, tracert, route, netstat, and Ping)
-- Used Python to creat and modify Windows Defender Firewall rules
+- Used Python to test Windows Defender Firewall rules 
+- learned new Linus networking tools (sudo, nano, cat /etc.., dig, curl, lsof, python3, tcpdump, tshark)
+- 
