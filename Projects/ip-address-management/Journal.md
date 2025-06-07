@@ -17,7 +17,7 @@ Convert to Azure Bicep
 
 ```sh
 cd ip-address-management\Templates\vm
-az bicep decompile --file "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\Projects\ip-address-management\Templates\template.json"
+az bicep decompile --file "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\projects\ip-address-management\Templates\template.json"
 ```
 
 ## Correcting Bicep file using Corsor AI and ensuring successful deployment
@@ -34,7 +34,7 @@ az deployment group create \
 To remedy the issue I downloaded the Deployment files from my web browser and instructed cursor AI to produce Bicep files from them. Once complet Cursor AI was able to provide the following command to launch the deployment
 
 ```sh
-az deployment group create --resource-group net-fun-bootcamp --template-file "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\Projects\ip-address-management\Templates\vm\main.bicep" --parameters "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\Projects\ip-address-management\Templates\vm\parameters.bicepparam"
+az deployment group create --resource-group net-fun-bootcamp --template-file "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\projects\ip-address-management\Templates\vm\main.bicep" --parameters "C:\Users\Conno\src\exp-net-fundamentals-2025-Q2\projects\ip-address-management\Templates\vm\parameters.bicepparam"
 ```
 ![Screenshot 2025-06-06 124428](https://github.com/user-attachments/assets/0a9161c7-2d1a-4147-956e-8c7ae1b82a02)
 

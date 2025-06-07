@@ -9,7 +9,7 @@ aws sts get-caller-identity
 ## Run Deploy Script
 
 ```sh
-cd Projects/env_automation
+cd projects/env_automation
 chmod u+x ./Bin/deploy
 ./Bin/deploy
 ```
