@@ -9,3 +9,5 @@ While exploring Packet Tracer I simulated a network that is currnetly attempting
  - Server1 does accept the packet on port 67 since we configured the DHCP service to the on position. 
 
 This process will ultimatley allow PC1 to gain an IPv4 address so that it can begin to receive information on the network.
+
+![Screenshot 2025-06-06 220205](https://github.com/user-attachments/assets/3f1bbe35-5582-421c-a955-fc9a4c582d90)
