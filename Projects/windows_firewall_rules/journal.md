@@ -10,9 +10,10 @@ The firewall rules block everything that does not have a inbound rule.
 
 We added an inbound rule for port 8000, from our local machine and used curl to be able to connect to the server.
 
-![](./assets/local_side.png)
+![Screenshot 2025-06-07 151409](https://github.com/user-attachments/assets/f82dece5-d7ee-49a8-a240-3f279d0d1208)
+
 
 We also had to remember to open port 800 on our AWS Security Group.
 
-![](./assets/vm_side.png)
+![Screenshot 2025-06-07 151312](https://github.com/user-attachments/assets/760c42d6-a362-4efe-9c49-2d41dd76af87)
 
