@@ -26,7 +26,8 @@ I changed the shebang to work for all OS platforms
 
 ## Visulization in Infrastructure Composer 
 
-![alt text](assests/image.png)
+![Screenshot 2025-06-03 183345](https://github.com/user-attachments/assets/356c5273-aa92-4dc1-9e6c-2f176589e682)
+
 
 ## Installing AWS CLI 
 
@@ -39,4 +40,5 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 This is the resource to AWS
 
-![alt text](assests/image2.png)
+![Screenshot 2025-06-03 201010](https://github.com/user-attachments/assets/ff766c25-fd8b-4c13-899e-62a0426df39e)
+
