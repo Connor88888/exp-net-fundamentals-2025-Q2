@@ -40,5 +40,6 @@ https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 This is the resource to AWS
 
-![Screenshot 2025-06-03 201010](https://github.com/user-attachments/assets/ff766c25-fd8b-4c13-899e-62a0426df39e)
+![Screenshot 2025-06-03 201640](https://github.com/user-attachments/assets/874cc19e-f150-42e6-bf71-b1e92dee29ba)
+
 
