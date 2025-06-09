@@ -9,9 +9,9 @@ dig google.com
 ```sh
  sudo vi /etc/systemd/resolved.conf
 ```
-> under "Resolve" uncomment "DNS=" and add 1.1.1.1
+- Under "Resolve" uncomment "DNS=" and add 1.1.1.1
 
-> exit by pressing ESC and using ":wq"
+- Exit by pressing ESC and using ":wq"
 
 ## Restart  config file for changes to take place 
 
