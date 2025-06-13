@@ -2,12 +2,6 @@
 
 Watched as netwroking enginners worked on crating a diagram of a metropolitan area network based on our instructors home town. They discusseed the design reasoning behind their decision to create a datacenter in an old church. 
 
-## Lessons Learned 
-- Installed Cisco Modeling Lab to complete Tim's lab 
-- Created a VPN connection between my host device and my Networking bootcamp VPC.
-- 
-
-
 ## CML notes
 As opposed to Packet tracer CML does not emulate Cisco device but rather it creates real devices running through a webbrowser GUI. 
 
@@ -71,14 +65,42 @@ The hexadecial code and machine readable code is displayed in the bottom right p
 
 We can also use wireshark to start a live capture with a filter set before it captures. (eg. you can set the filter to icmp to start the capture to only capture ping packets)
 
-
-
 ## NAT Basics notes 
+
+NAT: Network Address Translation
+
+Origanally invented to preserve the amuont of IPv4 addresses in use. 
+
+This is how your public facing IPv4 address is generated.
+
+NAT obscures your local network since all of your devices would share the same public facing IP. (Not a form of security)
+
+Static NAT is a 1:1 mapping of a source and destination. It will also assis in directing traffic between local ip addresses opperating on serperate netwroks. 
+
+NAT Pool is used direct traffic between multiple ISP's. When traffic is sent NAT pool it can use a pool of IP's to chose for translation. Used to extend the amount of possabilites of the NAT device. In cases of cloud useage it is use to also produce multiple public IP's. Used in large enterprise scnarios. 
+
+PAT/NAT Overload used port address transalation to track connections. Translates all internated addresses to 1 public IP. Most commonly used for home internet. 
+
+Tim then went to the CML lab and reviewed current NAT directions on the router.
+
+reviewed access list to determine what ip is being NAT'd to tell the router not to NAT the private network.
+
+used packet capture to view a ping packet before and after it passes through the NAT. 
+
+He then switched to WireShark to review an ICPM packet capture.
+
+His ping is double NAT'd since it is doing NAT in the CML router and then sending the traffic through his actual home router. 
 
 ## Load Balancer Overview Notes
 
+
+
 ## Recerse Proxy notes
 
+
+
 ## Forward Proxy
+
+
 
 ## HA Proxy Notes
