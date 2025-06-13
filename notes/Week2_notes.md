@@ -4,6 +4,7 @@ Watched as netwroking enginners worked on crating a diagram of a metropolitan ar
 
 ## Lessons Learned 
 - Installed Cisco Modeling Lab to complete Tim's lab 
+- Created a VPN connection between my host device and my Networking bootcamp VPC.
 - 
 
 
@@ -26,13 +27,51 @@ In sample labs we could also use the IOSvL2 Feature Tests lab and stay within th
 
 PCAP's can be captured in CML buy selecting the connection. 
 
-When attempting to install CML I encorterned multiple errors and could not recreate the lab in the instructor video
+When attempting to install CML I encorterned multiple errors and could not recreate the lab in the instructor video. 
 
 ## VPN notes 
 
+In aws we are grating a customer gateway for our VPC.
 
+Since I was unable to launch CML successfully I modeled my VPN the same as Tim did in the video but won't be ablee to test the connection. 
+
+Created a customer gateway listing my host devices IPv4 address
+
+Then created a Virtual Private Gateway.
+
+Once creted we then need to attached the VPG to a VPC instance. 
+
+We then need to create a site to site VPN connection to connect the customer gateway and the virtual private gateway. 
+
+After the sit-to-site VPN connection was created we downloaded the configuration file to pull the command sets to input in CML.
+
+After configuring the VPN in CML we validated the connection status in AWS.
+
+We then enable route propagation in AWS to to allow our VPC to learn routes from the VGW.
 
 ## Trafficflow with Wireshark notes 
+
+Tims started by restarting the DHCP reverse for his box in CML.
+
+He then created a packet capture between the switch and workstation to watch the packets as the send a request to process the new DHCP request.
+
+Downloaded packet capture to his device.
+
+Opened WireShark and uploaded the PCAP file from CML.
+
+Analyzed DHCP frames to view the granular packet details in the bottom left panel.
+
+WireShark can filter the packets and Tim shows how to filter by DHCP.
+
+Since the PCAP shows the initiation of DHCP we are able to review each of the DORA steps used to request DHCP services. 
+
+DORA: Discover, Offer, Request, Acknowledge.
+
+The hexadecial code and machine readable code is displayed in the bottom right panel. 
+
+We can also use wireshark to start a live capture with a filter set before it captures. (eg. you can set the filter to icmp to start the capture to only capture ping packets)
+
+
 
 ## NAT Basics notes 
 

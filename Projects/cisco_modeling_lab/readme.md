@@ -10,6 +10,6 @@ https://www.youtube.com/watch?v=oEuhAJm2vqk
 
 Please see attached assets for screenshots off the files I downloaded. 
 
-Once doenloaded the file would only open a raw file and the VM would not deploy.
+Once downloaded the file would only open a raw file and the VM would not deploy.
 
 Tim's video stated a video may be released on how to install CML free, but andrew said that if we were unable to download, then it will not impact our grade. 
