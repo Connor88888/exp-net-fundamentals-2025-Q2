@@ -1,16 +1,20 @@
 ## Steps taken to create VPN in AWS
 
 1) Establish a customer gateway and provide the public IPv4 address for CML router.
-![alt text](image.png)
+![Screenshot 2025-06-12 094504](https://github.com/user-attachments/assets/3eb8a0f5-a3c3-4b04-b30b-a7147e28e18a)
+
 
 2) Create a Virtual Private Gateway and attached it to your previously established netwroking VPC.
-![alt text](image-1.png)
+![Screenshot 2025-06-12 094813](https://github.com/user-attachments/assets/24beac63-8d37-449b-8251-1a5ba618ef6a)
+
 
 3) Connect the two gateways with a site-to-site VPN connection. Make sure you edit the tunnel options to DH group 14 so that it does not defult to the indecure group 2.
-![alt text](image-2.png)
+![Screenshot 2025-06-12 100634](https://github.com/user-attachments/assets/23ddd248-2038-4546-b4e0-29e4fc124432)
+
 
 4) Download the site-to-site VPN connection configuration file for the Cisco router. 
-![alt text](image.png)
+![Screenshot 2025-06-12 101101](https://github.com/user-attachments/assets/27272128-4780-45a6-8db9-7d3455e97e52)
+
 
 5) In the configuration file we would need to copy the config to establish our VPN tunnel in CML. (Could not complete due to download issues with CML)
 
