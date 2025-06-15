@@ -11,8 +11,9 @@ sudo apt install squid
 sudo nano /etc/squid/squid.conf
 ```
 
-3) Add the following rules to the end of the config file
-![alt text](<Screenshot 2025-06-15 174209.png>)
+3) Add the following rules to the end of the config file.
+![Screenshot 2025-06-15 174209](https://github.com/user-attachments/assets/a9cd10d3-799f-4516-9fc5-c05559108312)
+
 
 4) Add a rule under Safe_ports to allow traffic on port 8080
 ```text
@@ -40,6 +41,6 @@ sudo systemctl status squid
 9) Finally you can open a web browser on the local device and query the Backend server.
 
 End Result:
-![alt text](<Screenshot 2025-06-15 175340.png>)
+![Screenshot 2025-06-15 175340](https://github.com/user-attachments/assets/398c7fee-9e3e-4bcd-8753-fa3d7156dd8c)
 
 On the left we can see Windows VM displaying it's default IIS webpage. The middle panel displays the the Squid Reverse proxy is currently on and active. The right pannel is my host computers web browser that was able to connect to the Backend Server. 
