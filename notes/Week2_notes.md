@@ -91,11 +91,41 @@ He then switched to WireShark to review an ICPM packet capture.
 
 His ping is double NAT'd since it is doing NAT in the CML router and then sending the traffic through his actual home router. 
 
+Unable to complete lab outlined in video due to issues downloanding CML.
+
 ## Load Balancer Overview Notes
 
+Load Balancing is used to ensure redundancy and availablity of a service. It can be used to spread traffic between servers to ensure any one of them is not overloaded. 
+
+DNS load balancing can be programmed to spread DNS requests between web servers. 
+
+TLS termination on load balancer is a cerificate based encryption that can be used to send traffic to an HA proxy for decryption and then forwarded to web servers. 
+
+Proxies also work as laod balancers too and can assit with the management of the TLS encryption. 
+
+TLS termination on the server is used to place the decryption strain on the web servers rather than your HA proxy. This make it difficult for the HA server to make the best routing decision since the traffic in encrypted. 
+
+TLS termination on load balancer with re-encrytion to server is used send traffic to a HA proxy using TLS encryption, allowing the HA server to decrypt the payload to make a more informed routing decision, and then re-encrypting the traffic to ensure it is secure on it's was to the web server. 
+
+Application load balancing makes decisions on load balancing based on the application layer information. Most commonly usedd in the cloud. (Website URL)
+
+Netwrok load balancing is only using network layer information to make load balancing decisions. (Ports/IP address)
+
+Launchd Unbuntu box to begin installing container lab.
+
+## Reverse Proxy notes
+
+Stated by setting up a reverse proxy in our ubuntu box using squid proxy to connect to our windows box. 
+
+Modified the /etc/squid/dquid.conf configuration to establish a reverse proxy to the windows IP.
+
+Cluade was use to create configuration settings for squid to set a reverse proxy to our windows VM box.
+
+In our windows VM we ensured that an IIS server was sestablsihed to allow web access.
+
+When attempting to add the proxy-demo ip to my host file for my local device I got an error due to not having the appropriate permissions to edit the hosts file.
 
 
-## Recerse Proxy notes
 
 
 
