@@ -125,12 +125,16 @@ In our windows VM we ensured that an IIS server was sestablsihed to allow web ac
 
 When attempting to add the proxy-demo ip to my host file for my local device I got an error due to not having the appropriate permissions to edit the hosts file.
 
-
-
-
-
 ## Forward Proxy
 
+can provide connectivity to a network for the hosts behind it.
 
+usually used for security or contect filtering.
+
+Review VPC disgram to understand how  a private subnet would use a proxy to connect out to the internet.
+
+The proxy can also be configured to cache web content. 
+
+Squid proxy is typically located near the edge of the network. 
 
 ## HA Proxy Notes
