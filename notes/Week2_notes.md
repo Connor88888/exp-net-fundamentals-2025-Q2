@@ -138,3 +138,12 @@ The proxy can also be configured to cache web content.
 Squid proxy is typically located near the edge of the network. 
 
 ## HA Proxy Notes
+
+This HA Proxy sey up by Tim will also be a load balancer.
+
+Unable to locate Container Lab Files mention in the video to retreive templates. Due to time limitations I did  not have enough time to freee had and copy the tempates needed to complete the lab on my home device. 
+
+Bash scripts are being used to deploy the HA proxy.
+
+They set the load balancer to distribute packets between two backend web servers. 
+
